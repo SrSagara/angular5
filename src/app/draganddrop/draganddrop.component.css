@@ -1,0 +1,7 @@
+.borderedDiv{
+    border:1px blue solid;
+    width: 64px;
+    height:64px;
+    float:left;
+    margin-left:10px;
+}
