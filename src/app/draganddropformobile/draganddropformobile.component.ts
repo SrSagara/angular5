@@ -16,9 +16,9 @@ export class DraganddropformobileComponent implements OnInit {
     });
     $("#container").droppable({
       out: function(event, ui) {
-          $('#container').addClass('highlighter_focus_out');
-          $('#container').removeClass('highlighter_focus_in');
-       },    
+        $('#container').addClass('highlighter_focus_out');
+        $('#container').removeClass('highlighter_focus_in');
+       } ,    
       over: function(event, ui) {
         $('#container').addClass('highlighter_focus_in');
         $('#container').removeClass('highlighter_focus_out');
