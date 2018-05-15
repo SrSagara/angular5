@@ -1,0 +1,46 @@
+.borderedDiv{
+    border:1px blue solid;
+    width: 64px;
+    height:64px;
+    float:left;
+    margin:10px;
+}
+
+.draggable {
+    width: 64px;
+    height: 64px;
+    display:block;
+    float:left;
+    border:1px black solid;
+    margin-left: 15px;
+}
+#container {
+    width:64px;
+    height:64px;
+    margin-left: 15px;
+    float:left;
+    display:block;
+    border:1px black solid;
+}
+
+.contentDrag{
+    float:left;
+    margin:10px;
+}
+
+.draggableElements{
+    width:800px;
+    float:left;
+}
+
+.containerElements{
+    width:800px;
+    float:left;
+    margin-top: 10px;
+}
+
+.title{
+    width: 100%;
+    float:left;
+    margin:5px;
+}
