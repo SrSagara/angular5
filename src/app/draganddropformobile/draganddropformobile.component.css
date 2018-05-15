@@ -44,3 +44,10 @@
     float:left;
     margin:5px;
 }
+
+.highlighter_focus_in{
+    border:1px solid #585858;background-color:#F7FE2E;
+}
+.highlighter_focus_out{
+    border:none;background-color:#fff;
+}
