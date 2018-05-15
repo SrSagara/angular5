@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DraganddropComponent } from './draganddrop/draganddrop.component';
@@ -21,6 +22,7 @@ import { PipeuseComponent } from './pipeuse/pipeuse.component';
   imports: [
     BrowserModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })
