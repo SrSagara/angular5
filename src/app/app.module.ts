@@ -5,13 +5,18 @@ import { AppComponent } from './app.component';
 import { DraganddropComponent } from './draganddrop/draganddrop.component';
 import { DraganddropformobileComponent } from './draganddropformobile/draganddropformobile.component';
 import { ShowlistComponent } from './showlist/showlist.component';
+import { AdditionPipe } from './addition.pipe';
+import { PipeuseComponent } from './pipeuse/pipeuse.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DraganddropComponent,
     DraganddropformobileComponent,
-    ShowlistComponent
+    ShowlistComponent,
+    AdditionPipe,
+    PipeuseComponent
   ],
   imports: [
     BrowserModule
